@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="C:\Users\user\Desktop\Developer-project\fccproject\surveyform\style.css">
+</head>
+<body>
+    
+<div class="container">
+    <header class="header">
+    <h1 id="title" class="text-center">Women In Tech Survey Form</h1>
+    <p id="description" class="description text-center">This form is to help understand the rate at which women join the tech world and at what age.</p>
+    </header> 
+    
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+      </div>
+      
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+       <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+      </div>
+      
+      <div class="form-group">
+        <label id="number-label" for="number">Age <span class="clue">(That you entered the tech world)</span></label>
+            <input type="number" name="age" id="number" min="10" max="90" class="form-control" placeholder="Age" required>
+      </div>
+      
+      <div class="form-group">
+        <p>Current Role at the moment?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disable selected value>Select current role</option>
+          <option value="student">Student</option>
+          <option value="job">Full Time Job</option>
+          <option value="job">Part Time Job</option>
+          <option value="learner">Learner</option>
+          <option value="preferNo">Prefer Not to Say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <p>Martial Status</p>
+         <select id="dropdown" name="role" class="form-control" required>
+          <option disable selected value>Select current status</option>
+          <option value="married">Married</option>
+          <option value="single">Single</option>
+          <option value="divorced">Divorced</option>
+          <option value="widowed">Widowed</option>
+          <option value="preferNo">Prefer Not to Say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <p>What intrested you to join the tech world</p>
+        <label>
+          <input name="user-recommend" value="creativity" type="radio" class="input-radio" checked>Creativity
+        </label>
+        
+        <label>
+          <input name="user-recommend" value="hobby" type="radio" class="input-radio">Hobby
+        </label>
+        
+        <label>
+          <input name="user-recommend" value="visual design" type="radio" class="input-radio">Visual Design
+        </label>
+        
+        <label>
+          <input name="user-recommend" value="job security" type="radio" class="input-radio">Job Security
+        </label>
+      </div>
+      
+      <div class="form-group">
+        <p>Favorite Programming Language?</p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="html&css">HTML & CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python</option>
+          <option value="java">java</option>
+          <option value="c++">C++</option>
+          <option value="php">PHP</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <p>Which Developer are you? <span class="clue">(Check all that applies)</span></p>
+        
+        <label><input name="prefer" value="front-end-developer" type="checkbox" class="input-checkbox">Front-end Developer</label>
+        <label><input name="prefer" value="back-end-developer" type="checkbox" class="input-checkbox">Back-end Developer</label>
+        <label><input name="prefer" value="web designer" type="checkbox" class="input-checkbox">Web Designer</label>
+        <label><input name="prefer" value="full-Stack developer" type="checkbox" class="input-checkbox">Full-Stack Developer</label>
+        <label><input name="prefer" value="ui/ux designer" type="checkbox" class="input-checkbox">UX/UI Designer</label>
+      </div>
+      
+      <div class="form-group">
+        <p>How long have you been in the tech world</p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="0-1year">0-1year</option>
+          <option value="2-5years">2-5years</option>
+          <option value="5-10years">5-10years</option>
+          <option value="10-15years">10-15years</option>
+          <option value="15years above">15years above</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <p>How many hours do you code per day</p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="30min">30min per day</option>
+          <option value="1hour">1hour per day</option>
+          <option value="2-3hours">2-3hours per day</option>
+          <option value="3-5hours">3-5hours per day</option>
+          <option value="5hours">5hours above</option>   
+          </div>
+        </select>
+        
+      <div class="form-group">
+        <p>Any comments or advice to new female developers?</p>
+        <textarea id="comments" class="input-textarea" name="comment" 
+        placeholder="Enter your comment here..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" id="submit" 
+        class="submit-button">Submit</button>
+      </div>  
+      
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+* {padding: 0;
+   margin: 0;
+   box-sizing: border-box;}
+
+   body {font-family: "Poppins", Arial;
+        background-repeat: no-repeat; 
+        background-color: hsl(225, 100%, 93%);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 100vh;}
+
+ main {background-color: #fff;
+       display: flex;
+       flex-direction: column;
+      align-items: center;
+      width: 450px;
+      border-radius: 1.5rem;
+      overflow: hidden;} 
+
+.card-order {display: flex;
+             flex-direction: column;
+             align-items: center;
+             padding: 30px 50px;
+            text-align: center;}   
+            
+.order {padding-bottom: 15px;
+        font-size: 30px;
+         color: hsl(223, 47%, 23%);}  
+         
+.summary {color: hsl(228, 45%, 44%);
+          font-size: 14px;
+          margin-bottom: 17px;}   
+          
+.plan-offer {display: flex;
+             justify-content: space-around;
+             align-items: center;
+             border-radius: 20px;
+             width: 100%;
+             margin-bottom: 25px;
+            background-color: hsl(225, 100%, 98%);}
+      
+.plan {display: block;
+        padding: 20px;}    
+        
+.offer {color: hsl(223, 47%, 23%);}
+
+.price {color: hsl(228, 45%, 44%);}
+
+.change-offer {font-size: small;
+               font-weight: bolder;}
+
+.payment-button {box-shadow: 2px 10px 15px 1px hsl(225, 100%, 93%);
+                 background-color: hsl(245, 75%, 52%);
+                 width: 100%;
+                 border-color: transparent;
+                 border-radius: 0.50rem;
+                 text-align: center;
+                 min-height: 40px;
+                 font-weight: bolder;
+                font-size: inherit;
+                 display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px;}
+
+  .paybtn {color: #fff;
+           text-decoration: none;
+           padding: 1px;
+           align-self: center;}              
+
+.cancel-button {font-weight: bolder;
+                font-size: 15px;}
+
+.canbtn {color: hsl(228, 45%, 44%);
+         text-decoration: none;}
+                
+@media (max-width: 550px)
+{main {width: 350px;}
+ .plan-offer {flex-direction: column;}
+  .offer {font-size: medium;}
+  }
+
+
+
+
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
