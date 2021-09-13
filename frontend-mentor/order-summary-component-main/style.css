@@ -11,6 +11,7 @@
          min-height: 100vh;}
 
  main {background-color: #fff;
+        position: relative;
        display: flex;
        flex-direction: column;
       align-items: center;
@@ -64,7 +65,9 @@
                 align-items: center;
                 margin-bottom: 30px;}
 
-  .paybtn {color: #fff;
+.payment-button:hover {background-color: hsl(228, 45%, 44%);}                
+
+.paybtn {color: #fff;
            text-decoration: none;
            padding: 1px;
            align-self: center;}              
@@ -74,15 +77,26 @@
 
 .canbtn {color: hsl(228, 45%, 44%);
          text-decoration: none;}
-                
+
+.canbtn:hover {color: hsl(245, 75%, 52%);}         
+  
+
+.attribution { font-size: 11px;
+        position: absolute;
+        top: 650px;
+        left: 40%;
+        text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
 @media (max-width: 550px)
-{main {width: 350px;}
+{main {width: 350px;
+       position: relative;}
  .plan-offer {flex-direction: column;}
   .offer {font-size: medium;}
+ .attribution {position: absolute;
+                top: 720px;
+                left: 65px;}
   }
 
 
 
-
- .attribution { font-size: 11px; text-align: center; }
- .attribution a { color: hsl(228, 45%, 44%); }
