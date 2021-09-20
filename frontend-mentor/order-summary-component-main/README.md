@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mariamALLI/order-summary-design/blob/47e81416e6f543c57bf83f078a34bf96c4e934ce/index.html)(https://github.com/mariamALLI/order-summary-design/blob/5050d5b6f05408e112c68c57205fabeda1b6b56e/style.css)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/mariamALLI/order-summary-design/blob/47e81416e6f543c57bf83f078a34bf96c4e934ce/index.html)(https://github.com/mariamALLI/order-summary-design/blob/5050d5b6f05408e112c68c57205fabeda1b6b56e/style.css)
+- Live Site URL: [live site URL here](https://nerdyassist.netlify.app/)
 
 
 ### Built with
