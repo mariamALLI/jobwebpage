@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://cdpn.io/mariamalli/fullpage/mdwGddm -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Personal Portfolio</title>
+  
+  
+  
+  
+<style>
+* {margin: 0;
+   padding: 0;
+   box-sizing: border-box;}
+
+body {font-family:'Poppins',sans-serif;
+      background-color: #333F44;
+      color: #fff;}
+
+#navbar {padding: 0 30px;
+      height: auto;
+      padding: 20px;
+      width: 100%;
+      position: fixed;
+      background: rgb(148, 243, 228);}
+
+.navlist a {text-decoration: none;
+           font-size: 20px;
+            display: inline;
+            margin-right:30px;
+            color: #fff
+        }
+
+.navlist a:hover {color: #37AA9C;
+                  border-bottom: 2px dashed #3a9;}
+
+@media (max-width: 600px)
+{#navbar{justify-content: center;}}
+
+             /*welcome section*/
+#welcome-section {
+                   width: 100%;
+                   height: 100vh;
+                   display: flex;
+                   justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  font-size: 30px;
+                   background-color: rgba(55, 170, 156, 0.2);}
+
+.welcome-section p {font-size: 23px;
+                    font-style: italic;
+                    color: rgb(148, 243, 228);}
+
+               /*project section*/
+.project-section {background: rgb(26, 26, 27);
+                  padding: 10rem 2rem;
+                  text-align: center;}
+
+.projects-section-header {text-align: center;
+                          font-size: 35px;
+                          padding: 50px;
+                          text-decoration: underline;
+                          color: rgb(148, 243, 228)}
+
+.projects-grid {display: grid;
+               grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+               grid-gap: 4rem;
+               width: 100%;
+               max-width: 1280px;
+              margin: 0 auto;
+              margin-bottom: 6rem;
+}
+
+.project-image {width: 100%;
+                height: 100%;
+                box-shadow: 2px 2px 2px rgba(148, 243, 228, 0.8);
+                border-radius: 5px;}
+
+.project-tile {background: rgb(148, 243, 228);
+                border-radius: 3px;
+                 text-align: center;
+                 text-decoration: none;
+                  color: #fff;}
+
+/*contact section*/
+.contact-section {display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  width: 100%;
+                  height: 70vh;
+                  background-color: rgba(55, 170, 156, 0.3);}
+
+.contact-section-header {font-size: 35px;
+                         padding: 30px;}
+
+.contact-section-header p {text-align: center;
+                           font-size: 20px;}
+
+.contact-link {font-size: 25px;}
+
+.contact-link a {text-decoration: none;
+                 color: #fff;
+                 }
+.contact-link a:hover {color: #94F3E4;
+                       border-bottom:3px dashed #9fe; }
+
+.btn {padding: 20px;}
+
+                 /*Footer Section*/
+footer p {text-align: center;
+          font-size: 20px;
+          padding-top: 30px;} 
+
+footer hr {border-top: rgba(148, 243, 228, 0.8);}
+
+footer a {text-decoration: none;
+          color: rgb(148, 243, 228);}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" data-new-gr-c-s-check-loaded="14.1031.0" data-gr-ext-installed="">
+  <link rel="stylesheet" href="./all.css">
+<link href="./css" rel="stylesheet">
+
+<!----Navbar section------>
+<div id="navbar" class="navlist">
+ <a href="https://cdpn.io/mariamalli/fullpage/mdwGddm#welcome-section">About</a>
+ <a href="https://cdpn.io/mariamalli/fullpage/mdwGddm#projects">Projects</a>
+ <a href="https://cdpn.io/mariamalli/fullpage/mdwGddm#contact">Contact</a>
+</div>
+
+<!----Welcome Section----->
+<section id="welcome-section" class="welcome-section">
+  <h1>Hello I am Mariam O-Alli</h1>
+  <p>a wordpress and front-end developer</p>
+</section>
+
+<!----Project Section----->
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">Find below some of my project </h2>
+  <div class="projects-grid">
+    <a href="https://codepen.io/mariamalli/pen/yLbJZZB" target="_blank" class="project project-tile">
+      <img class="project-image" src="./social-share.jpg_" alt="Picture of Chimamanda Adichie">
+      <p class="project-tile">
+        <span class="code"></span>                  "Tribute Page"
+         <span class="code"></span>          </p>
+    </a>
+     <a href="https://codepen.io/mariamalli/pen/jOmVgwr" target="_blank" class="project project-tile">
+ 
+<img class="project-image" src="./MlRFZA8.jpg" alt="survey form">  
+ <p class="project-tile">
+ <span class="code"></span>
+     "Survey Form"
+  <span class="code"></span>
+  </p></a>  
+     
+ <a href="https://codepen.io/mariamalli/pen/rNmwZJa" target="_blank" class="project project-tile">
+                                      
+                                                        <img class="project-image" src="./YPq6bvM.jpg" alt="Product Landing Page">                              
+                                                        <p class="project-tile">
+   <span class="code"></span>
+        "Product Landing Page"  
+    <span class="code"></span> </p>          
+    </a>    
+                      
+    <a href="https://codepen.io/mariamalli/pen/eYWKqmq" target="_blank" class="project project-tile">
+  <img class="project-image" src="./xWo2Zwl.jpg" alt="Documentation Page">                           
+                                                         <p class="project-tile">
+  <span class="code"></span>
+   "Technical Documentation"
+  <span class="code"></span>              </p>                                   </a>                  
+   <a href="https://nerdyassist.netlify.app/" target="_blank" class="project project-tile">
+                                          
+<img class="project-image" src="./wnlb93S.jpg" alt="Summary Order Card">  
+   <p class="project-tile">
+  <span class="code"></span>
+   "Order Summary Card Design"
+  <span class="code"></span></p>                                    </a> 
+                    
+    <a href="https://codepen.io/mariamalli/full/MWozzYr" target="_blank" class="project project-tile">
+
+ <img class="project-image" src="./ayk7Gz1.jpg" alt="Layout">  
+  
+<p class="project-tile">
+  <span class="code"></span>
+   "Flex &amp; Grid Design Layout"
+  <span class="code"></span></p>                                    </a>                    
+  </div>
+</section>
+
+<!------ Contact Section ------>                    
+<section id="contact" class="contact-section">
+   <div class="contact-section-header">
+ <h2>Lets Collaborate Together...</h2> 
+ <p>Do you like doughnut?</p>             
+  </div>                                       
+   <div class="contact-link">
+   <a id="profile-link" href="https://github.com/mariamALLI" target="_blank" class="btn contact-details">
+ <i class="fab fa-github"></i> 
+  GitHub                       
+  </a> 
+  <a href="https://www.frontendmentor.io/profile/mariamALLI" target="_blank" class="btn contact-details">
+  <i class="fab fa-frontendmentor"></i>     
+   Frontend Mentor                      
+   </a>  
+                                         
+ <a href="https://www.linkedin.com/in/mariam-o-alli-a7964b21a/" target="_blank" class="btn contact-details">
+  <i class="fab fa-linkedin"></i>
+     LinkedIn                       
+  </a>   
+  <a href="mailto:mariam_oa@yahoo.com" class="btn contact-details">
+   <i class="fas fa-envelope-square"></i>
+   Email                             
+  </a>             
+   </div>    
+  </section>  
+
+ <!-- footer section -->                 
+   <footer>
+    <hr>                                
+  <p>Project completed by MOA for
+   <a href="https://www.freecodecamp.org/" target="_blank"> FreeCodeCamp
+ <i class="fa fa-free-code-camp"></i>      </a> 
+   </p>                                  </footer>
+    <script src="./stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js.download"></script>
+
+  <script src="./bundle.js.download"></script><div id="fcc_test_suite_wrapper" style="position: relative !important; z-index: 99999 !important;"></div>
+      <script id="rendered-js">
+// !! IMPORTANT README:
+
+// You may add additional external JS and CSS as needed to complete the project, however the current external resource MUST remain in place for the tests to work. BABEL must also be left in place. 
+
+/***********
+INSTRUCTIONS:
+  - Select the project you would 
+    like to complete from the dropdown 
+    menu.
+  - Click the "RUN TESTS" button to
+    run the tests against the blank 
+    pen.
+  - Click the "TESTS" button to see 
+    the individual test cases. 
+    (should all be failing at first)
+  - Start coding! As you fulfill each
+    test case, you will see them go   
+    from red to green.
+  - As you start to build out your 
+    project, when tests are failing, 
+    you should get helpful errors 
+    along the way!
+    ************/
+
+// PLEASE NOTE: Adding global style rules using the * selector, or by adding rules to body {..} or html {..}, or to all elements within body or html, i.e. h1 {..}, has the potential to pollute the test suite's CSS. Try adding: * { color: red }, for a quick example!
+
+// Once you have read the above messages, you can delete all comments.
+//# sourceURL=pen.js
+    </script>
+
+  
+
+
+
+
+ 
+</body></html>
