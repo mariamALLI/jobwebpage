@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex&Grid Design Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <!---Creating the Navbar section---->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">MASTERY</h1>
+            <nav>
+                <ul>
+                    <li class="nav"><a class="outline" href="#">Log in</a></li>
+                    <li class="nav"><a class="outline" href="#">Check courses</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--Building the Showcase section---->
+<section class="showcase">
+    <div class="container">
+        <div class="grid">
+            <div class="grid-item-1">
+                <div class="image">
+                    <img src="images/ben-kolde-bs2Ba7t69mM-unsplash.jpg" alt="inspiration quote"
+                     style="width: 300px; height: 300px;">
+                </div>
+            </div>
+           
+            <div class="grid-item-2">
+             <div class="showcase-text">
+                 <h1>Today you can learn any digital skill that you desire</h1>
+                 <p class="support-text">Currently over 20,000 students are learning with us</p>
+             </div>
+             <div class="showcase-form">
+                 <form action="">
+                     <input type="email" placeholder="Enter your email">
+                     <input type="submit" class="btn" value="Learning Hub">
+                 </form>
+                 <p class="info">You can start learning today. No payment required, no delay</p>
+             </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----Building the Stats and Testimonial Sectn---->
+<div class="stats-container">
+    <section class="stats">
+        <div class="flex">
+            <div class="stat">
+              <i class="fa fa-folder-open fa-2x"  aria-hidden="true"></i>
+              <h3 class="title">Courses available over 200</h3>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,reprehenderit ea! Sapiente porro tenetur labore ipsam!
+                   Libero dolores placeat sed sint unde architecto dolor corporis,eum velit repellendus reprehenderit ab!</p> 
+            </div>
+
+            <div class="stat">
+                <i class="fa fa-graduation-cap fa-2x"  aria-hidden="true"></i>
+                <h3 class="title">Certification offered on all course completion for free</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,reprehenderit ea! Sapiente porro tenetur labore ipsam!
+                     Libero dolores placeat sed sint unde architecto dolor corporis,eum velit repellendus reprehenderit ab!.</p>
+            </div>
+
+            <div class="stat">
+                <i class="fa fa-credit-card-alt fa-2x"  aria-hidden="true"></i>
+                <h3 class="title">For $3 you can book 1on1 session</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,reprehenderit ea! Sapiente porro tenetur labore ipsam!
+                     Libero dolores placeat sed sint unde architecto dolor corporis,eum velit repellendus reprehenderit ab!.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="test grid-3">
+                <div class="card">
+                    <div class="circle">
+                        <img src="images/user1.jpg" alt="a man">
+                    </div>
+                    <h3>Adam</h3>
+                    <p class="card-text">I have learnt frontend web development using this platfrom and I am going to say this is the best platform for learning. Absolutely
+                        worth the investment and would recommend to anyone interested in tech!</p>
+                </div>
+
+                <div class="card">
+                    <div class="circle">
+                        <img src="images/user3.jpg" alt="a lady">
+                    </div>
+                    <h3>Mariam</h3>
+                    <p class="card-text">I learnt UI/UX design using this platfrom and I am going to say this is the best platform for learning. Absolutely
+                        worth the investment and would recommend to anyone interested in tech!</p>
+                </div>
+
+                <div class="card">
+                    <div class="circle">
+                        <img src="images/user2.jpg" alt="man">
+                    </div>
+                    <h3>Sodiq</h3>
+                    <p class="card-text">I learnt backend web development using this platfrom and I am going to say this is the best platform for learning. Absolutely
+                        worth the investment and would recommend to anyone interested in tech!</p>
+                </div>
+            </div>  
+        </div>
+    </section>
+</div>
+</body>
+</html>

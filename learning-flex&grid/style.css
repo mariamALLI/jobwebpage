@@ -1,0 +1,164 @@
+/*Override default style by setting the margin and padding to 0*/
+* {box-sizing: border-box;
+   padding: 0;
+    margin: 0;
+   }
+
+body {font-family: "Poppins", Arial;
+      color: #fff;
+     }
+     
+/*styling the navbar section*/
+.navbar {background-color: #52DE97;
+         height: 70px;
+         padding: 0 30px;}
+
+.navbar a {text-decoration: none;
+           color: #fff;
+           padding: 9px;
+           margin: 0 10px;}    
+           
+.navbar a:hover {color: #C0FFB3;
+                 border-bottom:3px dashed #C0FFB3 ;}
+
+.navbar h1 {font-size: 30px;
+            font-weight: 600;
+             margin: 10px 0;
+             line-height: 1.1;
+             color: #fff;}
+
+.navbar .flex {display: flex;
+              justify-content: space-between;
+              align-items: center;
+               height: 100%;}    
+               
+.navbar ul {display: flex;}
+
+h2 {font-size: 20px;
+    font-weight: 250;
+   margin: 10px 0;
+   line-height: 1.1;}
+   
+p {font-size: 22px;
+   }
+
+li {list-style-type: none;}
+
+/*images must not be lager than the container*/
+img {width: 100%;}
+
+/*styling the container class. 
+center it and set the max-width so that element can flow past it*/
+.container {margin: 0 auto;
+            max-width: 1200px;
+            overflow: visible;}
+
+/*styling the showcase section*/
+.showcase {background-color: #52DE97;
+           height: 300px;}
+
+.showcase-text {padding-bottom: 1px;}           
+
+.showcase p {margin: 20px;}
+
+/*Add shadow below the image*/
+.showcase img {box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);}
+
+/*Add some padding on the form*/
+.showcase-form {padding-right: 7px;}
+
+/*Add grid styling*/
+.grid {overflow: visible;
+       display: grid;
+       grid-template-columns: 40% 60%;}
+
+/*setting space btwn the navbar and the grid template*/
+.grid-item-1, .grid-item-2 {position: relative;
+                            top: 10%;}  
+                            
+.grid-item-2 {padding: 0px;}
+
+/*style the form input and btn*/
+.showcase input[type='email'] {padding: 10px 70px 10px 0;
+                               font-size: 14px;
+                               border: none;
+                               border-radius: 6px;
+                               padding-left: 6px;}
+
+.btn {border-radius: 6px;
+      padding: 12px 20px;
+      background: #C0FFB3;
+       border: none;
+       margin-left: 10px;
+       color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);}                               
+
+/*styling the stats section first*/
+/*Center the container, set a max-width*/
+.stats-container {margin: 120px auto;
+                  padding: 0;
+                  max-width: 1400px;}   
+                  
+.title {color: #000;
+        font-size: 18px;
+         text-align: center;
+         padding-left: 10px;
+         padding-top: 10px;}            
+         
+.text {color: #000;
+       font-size: 16px;
+       width: 100%;
+      text-align: justify;
+       margin: 0 20px;
+      padding: 10px;}
+
+/*To display the 3 divs horizontally*/
+.flex {display: flex;
+       justify-content: space-around;}
+       
+/*Add some padding and center align the text
+Also set margin and width*/
+.stats {padding: 45px 50px;
+        text-align: center;}
+        
+.stat {margin: 0 30px;
+      text-align: center;
+      width: 800px;}   
+      
+.stats .fa {color: #38A3A5;}      
+
+/*styling the testimonial section*/
+.test {color: #000;
+               padding: 40px;}
+
+/* Wrap the image inside a cirle shape and 
+set height to take up all of parent element */  
+.test img {height: 100%;
+           clip-path: circle();}     
+           
+.test h3 {text-align: center;}           
+
+/* Create a grid of three equal columns. Set a gap of 40 px between them */
+.grid-3 {display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         gap: 40px;}
+
+/* Create a white card with some shadow around it */
+.card {padding: 10px;
+       background-color: #52DE97;
+       border-radius: 10px;
+       box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
+                    7px 7px 20px rgba(0, 0, 0, 0.2);}
+
+.circle {background-color: transparent;
+         border: 3px solid #C0FFB3;
+          height: 90px;
+          position: relative;
+          top: -30px;
+          left: 120px;
+          border-radius: 50%;
+           width: 90px;}     
+           
+.card-text {font-size: 15px;}           
